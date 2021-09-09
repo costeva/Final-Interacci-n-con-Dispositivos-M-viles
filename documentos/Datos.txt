@@ -1,0 +1,8 @@
+Nombre: Alexis Costedoat
+Carrera: Diseño y Programación Web
+Materia: Interacción con dispotivos móviles
+Comisión: 2B 
+Custrimestre:2
+Año: 2020
+Docente:Jonatan Gabriel Jorge
+Caracter de entrega: Final  

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Snow Style</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css" />
+</head>
+
+<body>
+
+	<header class="sticky-top">
+		<nav class=" d-flex navbar navbar-expand-md navbar-light colorNav bg-dark flex-row-reverse flex-md-row p-2">
+			<a class="navbar-brand order-2" href="#">
+				<h1 class="cabeza-logo h4">Snow Style</h1>
+			</a>
+
+
+			<button class=" order-3 navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+				data-target="#menuBurger" aria-controls="menuBurger" aria-expanded="false" aria-label="activar el menu">
+
+				<span class="navbar-toggler-icon"></span>
+
+			</button>
+
+			<button id="#modalCarrito" class="btn carrito order-1 order-md-5" data-toggle="modal"
+				data-target="#modalCarrito">Ver
+				carrito</button>
+
+			<div class="collapse navbar-collapse order-4" id="menuBurger">
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item active">
+						<a class="nav-link" id="ini" href="#ini">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+
+					<li class="nav-item active">
+						<a class="nav-link" id="snow" href="#snowboard">Snowboard <span
+								class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" id="esqui" href="#esqui">Esquí <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" id="accesorios" href="#accesorios">Accesorios <span
+								class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" id="info" href="#info">Info <span class="sr-only">(current)</span></a>
+					</li>
+
+				</ul>
+
+			</div>
+
+		</nav>
+
+		<div class="container-fluid d-flex justify-content-center border-top border-dark" id="minicarrito">
+			<div class="row col-12 text-center ">
+				<p class="col-6 pt-1 font-weight-bold "><span id="cantidadItem">0</span> Ítems</p>
+				<p class="col-6 pt-1 font-weight-bold">$<span id="precioTotal">0</span> Total</p>
+			</div>
+		</div>
+
+	</header>
+	<main class="container" id="catProductos">
+
+		<h2 class="pt-3 text-center">Nuestros Productos</h2>
+		<!-- Generar el contenido del div#productos dinámicamente -->
+		<div class="row" id="productos">
+			<!-- aca van los productos por JS-->
+		</div>
+
+
+	</main>
+	<footer class="foo-color container-fluid mt-4">
+		<div class="row logo-foo text-center ">
+			<div class="socialmedia col-12 col-sm-12  col-lg-12">
+				<ul class="justify-content-center list-inline  row py-sm-4">
+					<li class="list-inline-item" id="fb">
+						<a href="https://www.facebook.com">Facebook</a>
+					</li>
+					<li class="list-inline-item" id="ig">
+						<a href="https://www.instagram.com">Instagram</a>
+					</li>
+					<li class="list-inline-item" id="yt">
+						<a href="https://www.youtube.com">Youtube</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/js.js"></script>
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

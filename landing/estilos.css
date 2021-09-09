@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;	
+	line-height: 1;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Avenir_LT_35_Light;
+    src: url(font/Avenir_LT_35_Light.ttf);
+  }
+  
+  @font-face {
+    font-family: Avenir_LTS_td_Medium;
+    src: url(font/AvenirLTStd\ Medium.otf);
+  }
+  
+  @font-face {
+    font-family: Avenir_LTS_td_black;
+    src: url(font/AvenirLTStd-Black.otf);
+  }
+
+  
+
+
+h1::before{
+    
+    content: url(img/logo_Vec.svg);
+   
+}
+
+h1, h2{
+    font-family:  "Avenir_LTS_td_black";
+}
+
+p{
+    font-family: "Avenir_LTS_td_Medium" ;
+}
+
+.parrafo{
+    font-family:Avenir_LTS_td_black ;
+}
+
+.log{
+   font-size: 0;
+
+}
+
+.back{
+    background: url(img/fondo_celu.jpg) no-repeat;
+}
+
+.back-color{
+    background-color: #ffcc99!important;
+}
+
+.botones img{
+        height: 60px;
+    margin-top: 20px;
+}
+.iconos{
+    max-width: 325px;
+    margin: 0 auto;
+}
+
+.iconos img{
+
+    height: 80px;
+}
+
+.socialmedia li a {
+    background: url(img/redes2.png) no-repeat;
+    display: inline-block;
+    width: 53px;
+    height: 52px;
+    font-size: 0px;
+  }
+  
+  .socialmedia #ig a {
+    background-position: -109px 0px;
+  }
+  
+  .socialmedia #yt a {
+    background-position: -55px 0px;
+  }
+
+  .foo-color {
+    background-color: #ffcc99!important;
+}
+
+@media only screen and (min-width: 481px){
+
+
+    .back{
+        background: url(img/fondo_tablet.jpg) no-repeat;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+    .back{
+        background: url(img/fondo-escritorio-2.jpg) no-repeat;
+    }
+
+}
+
+@media only screen and (min-width: 1280px){
+.back{
+    background: url(img/fondo-full.jpg) no-repeat;
+}
+}
